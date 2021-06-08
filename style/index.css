@@ -163,3 +163,23 @@ nav{
     align-items:center;
 }
 
+/*Responsive Styles*/
+/*max-width scales down - desktop first*/
+/*min-width scales up - mobile first*/
+
+@media max-width: 800px {
+    /*if the screen size is 800px or smaller apply these styles*/
+    
+}
+@media max-width: 500px {
+    /*if the screen size is 500px or smaller apply these styles*/
+    nav{
+        flex-direction:column;
+    }
+    .links{
+        width: 80%;
+    }
+    
+}
+
+
